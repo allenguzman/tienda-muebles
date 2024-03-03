@@ -1,6 +1,206 @@
 body{
     margin: 0;
     padding: 0;
-    
+    font-family: "montserrat";
+}
 
+#hero{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    padding-top: 15%;
+    padding-bottom: 8%;
+    
+    background-image: url(MUEBLES\ TRONCOSO.png);
+    background-position: center;
+    background-size: cover;
+
+ }
+
+ #hero h1{
+    font-size: 2em;
+
+
+ }
+ 
+
+.izquierda{
+    background: url(producto1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 300px;
+    width: 50%;
+
+}
+
+.derecha{
+    background-color: #0056b3;
+    height: 300px;
+    width: 50%;
+    text-align: center;
+}
+
+
+
+#pantalladividida{
+    display: flex;
+}
+
+H1{
+
+    text-align: center;
+}
+
+h2{
+    color: aliceblue;
+text-align: center;
+}
+p{
+    color: aliceblue;
+}
+
+h3{
+    text-decoration: azure;
+    color: aliceblue;
+    text-align: center;
+}
+.carrito{
+    background-color: greenyellow;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    
+ }
+
+ .Nuestros{
+    color: black;
+ }
+
+
+
+
+
+ .container2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1px; 
+  }
+  
+  .image-container2 {
+    width: 70%;
+    height: 50%;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .image-container2 img {
+    width: 100%;
+    height: 50%;
+    
+  }
+  
+  .description {
+    margin-top: 10px;
+    background-color: #0056b3;
+    border-radius: 2%;
+  }
+  
+  .add-to-cart {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+
+
+    
+.card-title{
+    color: #ccc;
+
+}
+
+.preciocartas{
+    color: #ccc;
+}
+
+.card {
+    
+    width: 100%;
+    background-color: #0056b3;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 0%;
+    margin-bottom: px;
+}
+
+.add-to-cart {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.categoria{
+    font-size: 2em;
+    text-align: center;
+}
+
+.categorias {
+    display: flex;
+    justify-content: space-around
+}
+
+.imagen-categoria {
+    text-align: center;
+}
+
+.imagen-categoria img {
+    width: 400px; 
+    height: auto; 
+    margin-bottom: 10px; 
+
+}
+
+.pie-pagina{
+background-color: black;
+
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.grupo-1{
+    color: aqua;
+}
+
+.sinvinetas{
+    list-style-type: none;
 }
